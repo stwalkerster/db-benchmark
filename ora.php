@@ -1,4 +1,5 @@
 <?php
+require 'functions.php';
 function preSetup( PDO $pdo ) {
 	@$pdo->exec( 'DROP SEQUENCE benchmark_seq' );
 }
